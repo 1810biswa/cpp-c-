@@ -12,6 +12,7 @@ int main()
     getline(cin, favoriteTea);
 
     cout << "how many cup of tea : ";
+    cout << "hello";
     
     cin >> quantityOfTea;
 
