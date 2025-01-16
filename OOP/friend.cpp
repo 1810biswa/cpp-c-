@@ -22,9 +22,8 @@ public:
 
 bool compareServe(const Tea &tea1, const Tea &tea2)
 {
-    cout << (tea1.servings > tea2.servings) <<endl ;
-   return tea1.servings > tea2.servings;
-
+    cout << (tea1.servings > tea2.servings) << endl; // Just for debugging purpose
+    return tea1.servings > tea2.servings;
 }
 
 int main()
